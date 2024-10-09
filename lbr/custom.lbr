@@ -72,7 +72,6 @@
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.12" layer="51"/>
 <wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.12" layer="51"/>
 <text x="0" y="1.5323" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.5323" size="0.9" layer="27" font="vector" align="top-center">&gt;VALUE</text>
 <wire x1="-2.3753875" y1="0.3257875" x2="-2.3753875" y2="0.00581875" width="0.127" layer="21"/>
 <wire x1="-2.3753875" y1="0.00581875" x2="-2.3753875" y2="-0.157078125" width="0.127" layer="21"/>
 <wire x1="-2.3753875" y1="-0.157078125" x2="-2.3753875" y2="-0.314153125" width="0.127" layer="21"/>
@@ -119,11 +118,11 @@
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1524" layer="21"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1524" layer="21"/>
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1524" layer="21"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.05" layer="39"/>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.05" layer="39"/>
-<text x="-2.5" y="1.5" size="0.9" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-1.9" y1="1.4" x2="1.9" y2="1.4" width="0.05" layer="39"/>
+<wire x1="1.9" y1="1.4" x2="1.9" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="1.9" y1="-1.4" x2="-1.9" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="-1.9" y1="-1.4" x2="-1.9" y2="1.4" width="0.05" layer="39"/>
+<text x="-2" y="1" size="0.9" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="IMU">
 <wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.12" layer="21"/>
@@ -157,46 +156,16 @@
 </packages>
 <symbols>
 <symbol name="MOSFET">
-<pin name="G" x="-7.62" y="2.54" length="middle"/>
-<pin name="S" x="-7.62" y="-2.54" length="middle"/>
-<pin name="D" x="10.16" y="2.54" length="middle" rot="R180"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.460553125" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-0.460553125" width="0.1524" layer="94"/>
-<wire x1="-3.5503625" y1="-2.557278125" x2="-3.5503625" y2="-4.1450875" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="3.7635625" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.7635625" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-0.480909375" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-0.480909375" x2="2.17011875" y2="-0.480909375" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-0.480909375" x2="2.902990625" y2="-0.480909375" width="0.1524" layer="94"/>
-<wire x1="0" y1="-0.460553125" x2="-0.354221875" y2="-0.460553125" width="0.1524" layer="94"/>
-<wire x1="0" y1="-0.460553125" x2="0.2768625" y2="-0.460553125" width="0.1524" layer="94"/>
-<wire x1="-3.5503625" y1="-4.1450875" x2="0.6565375" y2="-4.1450875" width="0.1524" layer="94"/>
-<wire x1="0.6565375" y1="-4.1450875" x2="3.7635625" y2="-4.1450875" width="0.1524" layer="94"/>
-<wire x1="3.7635625" y1="-4.1450875" x2="3.7635625" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-0.460553125" x2="-2.860034375" y2="-0.460553125" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-0.460553125" x2="-2.23164375" y2="-0.460553125" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.771875" x2="0" y2="-4.592703125" width="0.1524" layer="94"/>
-<wire x1="0" y1="-4.592703125" x2="0.153596875" y2="-4.487984375" width="0.1524" layer="94"/>
-<wire x1="0.153596875" y1="-4.487984375" x2="0.6565375" y2="-4.1450875" width="0.1524" layer="94"/>
-<wire x1="0.6565375" y1="-4.1450875" x2="0.184178125" y2="-3.876571875" width="0.1524" layer="94"/>
-<wire x1="0.184178125" y1="-3.876571875" x2="0" y2="-3.771875" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.771875" x2="0.153596875" y2="-4.487984375" width="0.1524" layer="94"/>
-<wire x1="0.153596875" y1="-4.487984375" x2="0.16124375" y2="-4.33513125" width="0.1524" layer="94"/>
-<wire x1="0.16124375" y1="-4.33513125" x2="0.1688875" y2="-4.182278125" width="0.1524" layer="94"/>
-<wire x1="0.1688875" y1="-4.182278125" x2="0.184178125" y2="-3.876571875" width="0.1524" layer="94"/>
-<wire x1="0.184178125" y1="-3.876571875" x2="0.40506875" y2="-4.3165375" width="0.1524" layer="94"/>
-<wire x1="0.40506875" y1="-4.3165375" x2="0.1688875" y2="-4.182278125" width="0.1524" layer="94"/>
-<wire x1="0.260396875" y1="-4.3165375" x2="0.16124375" y2="-4.33513125" width="0.1524" layer="94"/>
-<wire x1="0.6565375" y1="-3.74745625" x2="0.6565375" y2="-4.642971875" width="0.1524" layer="94"/>
-<circle x="0" y="-1.072471875" radius="0.118940625" width="0.1524" layer="94"/>
-<circle x="-3.5503625" y="-2.557278125" radius="0.1594375" width="0.1524" layer="94"/>
-<circle x="3.7635625" y="-2.54" radius="0.159153125" width="0.1524" layer="94"/>
-<circle x="-2.54" y="-2.54" radius="0.159153125" width="0.1524" layer="94"/>
-<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<pin name="G" x="-7.62" y="0" length="middle"/>
+<pin name="S" x="2.54" y="-7.62" length="middle" rot="R90"/>
+<pin name="D" x="2.54" y="7.62" length="middle" rot="R270"/>
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="-2.54" y1="0" x2="-0.7018375" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.7018375" y1="0" x2="-0.7018375" y2="1.785753125" width="0.254" layer="94"/>
+<wire x1="-0.7018375" y1="0" x2="-0.7018375" y2="-1.387696875" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 <symbol name="LED">
 <pin name="A" x="-10.16" y="0" length="middle"/>
@@ -233,20 +202,19 @@
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="IMU">
-<pin name="1" x="10.16" y="7.62" length="middle"/>
-<pin name="2" x="10.16" y="2.54" length="middle"/>
-<pin name="3" x="10.16" y="-2.54" length="middle"/>
-<pin name="4" x="10.16" y="-7.62" length="middle"/>
-<pin name="5" x="5.08" y="-10.16" length="middle" rot="R270"/>
-<pin name="6" x="0" y="-10.16" length="middle" rot="R270"/>
-<pin name="7" x="-5.08" y="-10.16" length="middle" rot="R270"/>
-<pin name="8" x="-10.16" y="-7.62" length="middle" rot="R180"/>
-<pin name="9" x="-10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="10" x="-10.16" y="2.54" length="middle" rot="R180"/>
-<pin name="11" x="-10.16" y="7.62" length="middle" rot="R180"/>
-<pin name="12" x="-5.08" y="10.16" length="middle" rot="R90"/>
-<pin name="13" x="0" y="10.16" length="middle" rot="R90"/>
-<pin name="14" x="5.08" y="10.16" length="middle" rot="R90"/>
+<pin name="SDO/SA0" x="10.16" y="7.62" length="middle"/>
+<pin name="SDX" x="10.16" y="2.54" length="middle"/>
+<pin name="SCX" x="10.16" y="-2.54" length="middle"/>
+<pin name="INT1" x="10.16" y="-7.62" length="middle"/>
+<pin name="VDDIO" x="5.08" y="-10.16" length="middle" rot="R270"/>
+<pin name="GND1" x="0" y="-10.16" length="middle" rot="R270"/>
+<pin name="VDD" x="-10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="INT2" x="-10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="OCS_AUX" x="-10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="SDO_AUX" x="-10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="CS" x="-5.08" y="10.16" length="middle" rot="R90"/>
+<pin name="SCL" x="0" y="10.16" length="middle" rot="R90"/>
+<pin name="SDA" x="5.08" y="10.16" length="middle" rot="R90"/>
 <circle x="15.24" y="12.7" radius="0.660265625" width="0.254" layer="94"/>
 <text x="-5.08" y="22.86" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
@@ -313,27 +281,26 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IMU">
+<deviceset name="IMU" prefix="U">
 <gates>
 <gate name="G$1" symbol="IMU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IMU">
+<device name="LSM6DS0-IMU" package="IMU">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="CS" pad="12"/>
+<connect gate="G$1" pin="GND1" pad="6 7"/>
+<connect gate="G$1" pin="INT1" pad="4"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="OCS_AUX" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="13"/>
+<connect gate="G$1" pin="SCX" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="14"/>
+<connect gate="G$1" pin="SDO/SA0" pad="1"/>
+<connect gate="G$1" pin="SDO_AUX" pad="11"/>
+<connect gate="G$1" pin="SDX" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
