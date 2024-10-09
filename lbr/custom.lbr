@@ -241,7 +241,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED" prefix="D" uservalue="yes">
+<deviceset name="LED" prefix="D">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
